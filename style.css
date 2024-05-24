@@ -1,50 +1,40 @@
-p, h1, h2, h3, h4 {
+
+  /* Set the background color of the page */
+body {
+    background: #2d545e;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* General styling */
+  p, h1, h2, h3, h4 {
     color: white;
     text-align: center;
   }
   
-  *  {
-   height: auto;
-    width: auto;
-    justify-content: center;
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the image and its container */
+  #img-div {
+    text-align: center; /* Center the content inside this div */
     padding: 10px;
-    border: auto;
   }
   
-  body {
-    background: #2d545e;
-  }
-  main > #img-div > #image {
-   height: auto;
+  #image {
     max-width: 100%;
-    box-shadow: 10px;
-    border-radius: 5px #12343b;
+    border-radius: 5px;
     display: block;
-          margin-left: auto;
-          margin-right: auto;
-          margin: auto;
-          align-content: center;
-  }
-  
-  .centered {
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
   }
   
   ul {
     background-color: #fceed1;
     box-shadow: 4px 4px 4px;
-    border-radius: 10px #12343b;
-    padding:20px;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
   }
   
-    img {
-      display: block;
-      margin: auto;
-    }
-    a {
-      color: white;
-    }
+  a {
+    color: white;
+  }
