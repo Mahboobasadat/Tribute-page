@@ -1,40 +1,42 @@
 
-  /* Set the background color of the page */
+/* Set the background color of the page */
 body {
-    background: #2d545e;
-    font-family: Arial, sans-serif;
-  }
+  background: #2d545e;
+  font-family:
+    Arial,
+    sans-serif;
+}
   
-  /* General styling */
-  p, h1, h2, h3, h4 {
-    color: white;
-    text-align: center;
-  }
+/* General styling */
+p, h1, h2, h3, h4 {
+  color: white;
+  text-align: center;
+}
   
-  * {
-    box-sizing: border-box;
-  }
+* {
+  box-sizing: border-box;
+}
   
-  /* Styling for the image and its container */
-  #img-div {
-    text-align: center; /* Center the content inside this div */
-    padding: 10px;
-  }
+/* Styling for the image and its container */
+#img-div {
+  text-align: center;/* Center the content inside this div */
+  padding: 10px;
+}
   
-  #image {
-    max-width: 100%;
-    border-radius: 5px;
-    display: block;
-  }
+#image {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+}
   
-  ul {
-    background-color: #fceed1;
-    box-shadow: 4px 4px 4px;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-  }
+ul {
+  background-color: #fceed1;
+  box-shadow: 4px 4px 4px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
   
-  a {
-    color: white;
-  }
+a {
+  color: white;
+}
