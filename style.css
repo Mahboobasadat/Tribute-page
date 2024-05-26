@@ -6,9 +6,13 @@ body {
     Arial,
     sans-serif;
 }
-  
+
 /* General styling */
-p, h1, h2, h3, h4 {
+p,
+h1,
+h2,
+h3,
+h4 {
   color: white;
   text-align: center;
 }
@@ -16,19 +20,19 @@ p, h1, h2, h3, h4 {
 * {
   box-sizing: border-box;
 }
-  
+
 /* Styling for the image and its container */
 #img-div {
   text-align: center;/* Center the content inside this div */
   padding: 10px;
 }
-  
+
 #image {
   max-width: 100%;
   border-radius: 5px;
   display: block;
 }
-  
+
 ul {
   background-color: #fceed1;
   box-shadow: 4px 4px 4px;
@@ -36,7 +40,7 @@ ul {
   padding: 20px;
   text-align: center;
 }
-  
+
 a {
   color: white;
 }
